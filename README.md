@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Project Name
+### Bot Army Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author
+### AARON KIPTOO
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Bot Army Builder is a web application that allows users to build their own bot army by enlisting bots from a collection of available bots. Users can view detailed information about each bot, sort the bots by health, damage, or armor, and filter the bots by their class. Once enlisted, the bots will be added to the user's bot army. The user can also release bots from their army or discharge them permanently from service.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    * Features
+    * Technologies Used
+    * Getting Started
+    * Installation
+    * Dependencies
+    * Usage
+    * Contributing
+    * License
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+    * View a collection of available bots with their names, classes, health, damage, armor, and catchphrases.
+    * Click on a bot to view detailed specifications in the BotSpecs component.
+    * Enlist bots into your bot army by clicking the "Enlist" button in the BotSpecs view.
+    * Delete transactions to remove them from the list.
+    * Sort the bots in the collection by their health, damage, or armor using the SortBar component.
+    * Filter the bots by their class (Support, Medic, Assault, Defender, Captain, or Witch) using the SortBar component.
+    * View your enlisted bot army with their names, classes, health, damage, and armor in the YourBotArmy component.
+    * Release bots from your army by clicking the "Release" button in the YourBotArmy component.
+    * Permanently discharge bots from service by clicking the "Discharge" button in the YourBotArmy component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+   * React: A JavaScript library for building user interfaces.
+   * Axios: A promise-based HTTP client for making API requests.
+   * CSS: Used for styling the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+To get started with Bot Army Builder, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository to your local machine using the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    * git clone git@github.com:arronkiptoo/Bot-Battlr.git
 
-### `npm run eject`
+Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    * cd bot-robot
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    * npm install
+    or
+    * npm install react-router-dom
 
-## Learn More
+Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+    * npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Open your web browser and navigate to http://localhost:3001 to access the application.
 
-### Analyzing the Bundle Size
+## Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bot Army Builder uses the following dependencies:
 
-### Making a Progressive Web App
+    * React: A JavaScript library for building user interfaces.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    * react-dom: A package that provides DOM-specific methods for React.
 
-### Advanced Configuration
+    * react-scripts: A set of scripts and configuration used by Create React App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## API
 
-### Deployment
+The application fetches bot data from a local backend API, which is provided in the *db.json* file. The API runs on *http://localhost:3000/bots* and returns a list of available bots in JSON format.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Demo Images
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Contributions to Bot Army Builder are welcome! If you find any bugs or have suggestions for new features, feel free to open an issue or submit a pull request.
+
+## License
+MIT License
+
+Copyright (c) 2023 AARON KIPTOO
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+

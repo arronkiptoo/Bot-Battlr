@@ -32,7 +32,161 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bot-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px solid #868383; /* Add a border style */
+  border-radius: 8px;
+  box-shadow: 0 2px 20px rgba(15, 15, 15, 0.1);
+  text-align: center;
+}
+
+.bot-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bot-card p {
+  margin: 5px;
+}
+
+.bot-details {
+  margin-top: 20px;
+}
+
+.bot-details button {
+  margin: 5px;
+}
+
+.your-bot-army {
+  margin-top: 50px;
+}
+
+.your-bot-army ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.your-bot-army li {
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+  width: 180px;
+}
+
+.your-bot-army img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.your-bot-army p {
+  margin: 5px;
+}
+
+.sort-bar {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sort-bar button {
+  margin: 5px;
+}
+
+.bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bot-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.catchphrase {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.collection-heading {
+  text-align: center;
+}
+
