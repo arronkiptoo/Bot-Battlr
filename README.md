@@ -79,7 +79,7 @@ Bot Army Builder uses the following dependencies:
 The application fetches bot data from a local backend API, which is provided in the *db.json* file. The API runs on *http://localhost:3000/bots* and returns a list of available bots in JSON format.
 
 ## Demo Images
-
+<img width="1440" alt="Screenshot 2023-11-05 at 15 11 10" src="https://github.com/arronkiptoo/Bot-Battlr/assets/144256231/d1b5ab0d-66c7-4b70-b4b5-6d07eb1f80e0">
 
 ## Contributing
 
